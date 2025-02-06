@@ -4,4 +4,6 @@ matplotlib
 pandas
 catboost
 xgboost
+sklearn
+dill
 #-e .
