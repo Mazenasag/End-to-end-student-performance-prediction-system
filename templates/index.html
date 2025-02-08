@@ -1,1 +1,42 @@
-<h1>Welcome to the home page </h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Performance Indicator</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Student Performance Indicator</h1>
+      <p>
+        This application helps predict students' math scores based on various
+        factors such as parental education, test preparation, and previous
+        scores.
+      </p>
+
+      <div class="features">
+        <h2>How It Works:</h2>
+        <ul>
+          <li>
+            Enter student details such as gender, ethnicity, and parental
+            education.
+          </li>
+          <li>Provide previous test scores in writing and reading.</li>
+          <li>
+            Our model predicts the expected math score based on the given data.
+          </li>
+        </ul>
+      </div>
+
+      <button
+        onclick="window.location.href='{{ url_for('predict_datapoint') }}'"
+      >
+        Predict Now
+      </button>
+    </div>
+  </body>
+</html>

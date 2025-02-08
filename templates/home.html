@@ -87,7 +87,15 @@
         </div>
         <button type="submit">Predict Your Math Score</button>
       </form>
-      <h2 id="result">Prediction: {{ results }}</h2>
     </div>
+
+    <!-- Prediction Result Modal -->
+    {% if results is not none %}
+    <div id="resultModal" class="modal">
+      <span id="closeModal" class="close-btn">&times;</span>
+      <h2>Predicted Math Score</h2>
+      <p><strong>{{ results }}</strong></p>
+    </div>
+    {% endif %}
   </body>
 </html>
