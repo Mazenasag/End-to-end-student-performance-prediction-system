@@ -51,14 +51,13 @@ This project aims to analyze how students' academic performance (test scores) is
 - **Lasso Regression** had the lowest performance, making it unsuitable for this dataset.
 - **K-Neighbors Regressor** and **AdaBoost** performed moderately, but their R² scores suggest they are not optimal for this problem.
 
-🛠️ **How to Run the Project**
 
 🛠️ **How to Run the Project**
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Mazenasag/ML_Project.git
+   git clone https://github.com/Mazenasag/End-to-end student performance prediction system.git
    cd student-performance-prediction
    ```
 
