@@ -1,6 +1,6 @@
 # Student Performance Prediction
 
-![Alt Text](static/Capture.PNG)
+![Alt Text](static/Capture.PNG) 
 
 📌 **Problem Statement**
 
