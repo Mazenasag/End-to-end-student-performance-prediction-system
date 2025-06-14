@@ -4,7 +4,7 @@
 
 📌 **Problem Statement**
 
-This project aims to analyze how students' academic performance (test scores) is influenced by various factors such as Gender, Ethnicity, Parental Level of Education, Lunch Type, and Test Preparation Course. The goal is to build predictive models that estimate students' scores based on these variables.
+This project aims to  analyze how students' academic performance (test scores) is influenced by various factors such as Gender, Ethnicity, Parental Level of Education, Lunch Type, and Test Preparation Course. The goal is to build predictive models that estimate students' scores based on these variables.
 
 📊 **Data Collection**
 
