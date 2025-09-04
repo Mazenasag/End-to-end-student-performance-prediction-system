@@ -92,3 +92,5 @@ Enhance feature engineering to improve predictions
 This project is licensed under the MIT License.
 
 Feel free to contribute and improve the model! 🚀
+
+#704650060063.dkr.ecr.us-east-1.amazonaws.com/student
